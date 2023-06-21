@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-variable-static-display');
+
+:root {
+    /*the base ao site color background*/
+    --bg-base-color: rgb(239, 243, 255);
+
+    /* the compsoe colors for the bacnground gradinet colors */
+    --bg-blue--color: rgb(236, 244, 255);
+    --bg-purple--color: rgb(224, 216, 252);
+    --bg-pink--color: rgb(246, 211, 248);
+
+    /*the side right bar gradient colors*/
+    --sb-up-color: rgb(237, 241, 255);
+    --sb-down-color: rgb(248, 238, 253);
+
+    /* the button colors*/
+    --bt--primary: rgb(134, 132, 246);
+    --bt--secundary: rgb(0, 0, 0);
+    --bt--meddle: rgb(76, 76, 76);
+
+    /* colors icons*/
+    --ic--gray-dark: rgb(72, 72, 72);
+    --ic-blue: rgb(85, 68, 194);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Segoe UI Variable Static Display', sans-serif;
+    font-family: 'Segoe UI Variable Static Small', sans-serif;
+    font-family: 'Segoe UI Variable Static Text', sans-serif;
+    background-color: var(--bg-base-color);
+}
+
+#logo-name-side {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bg-base-color);
+    height: 100%;
+    gap: 54%;
+    width: 10px;
+    padding: 0px 64px;
+    box-shadow: inset -20px -10px 20px rgb(234, 237, 250);
+}
+
+#text-logo {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    rotate: -90deg;
+    letter-spacing: 7px;
+    padding-left: 30px;
+    user-select: none;
+}
+
+#logo {
+    width: 25px;
+    -webkit-user-drag: none;
+    user-select: none;
+    cursor: pointer;
+}
