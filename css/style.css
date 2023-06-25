@@ -81,7 +81,6 @@ body {
     width: 400px;
     min-width: 350px;
     height: 400px;
-    box-shadow: 0px 10px 10px #d3d3d3;
     background-color: #fff;
     background-size: cover;
     background-position: center;
@@ -91,14 +90,17 @@ body {
 
 .card-1 {
     background-image: url(/img/card-img/card-1.jpg);
+    box-shadow: 0px 10px 10px rgb(212, 189, 162);
 }
 
 .card-2 {
     background-image: url(/img/card-img/card-2.jpg);
+    box-shadow: 0px 10px 10px rgb(211, 132, 89);
 }
 
 .card-3 {
     background-image: url(/img/card-img/card-3.jpg);
+    box-shadow: 0px 10px 10px rgb(219, 129, 185);
 }
 
 #text-content {
@@ -178,4 +180,32 @@ body {
 #content-title-description {
     position: relative;
     margin: 25px;
+}
+
+#content-bg-balls {
+    opacity: 0.3;
+    transform: rotate(0deg);
+    z-index: -2;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: right;
+    right: -50px;
+    height: 100%;
+    filter: blur(150px);
+}
+
+#ball-1 {
+    width: 500px;
+    height: 60%;
+    background-color: rgb(195, 0, 255);
+    border-radius: 0% 0% 0% 50%;
+}
+
+#ball-2 {
+    width: 500px;
+    height: 40%;
+    background-color: rgb(255, 0, 191);
+    border-radius: 50% 0% 0% 0%;
 }
