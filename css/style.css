@@ -118,27 +118,42 @@ body {
     color: rgb(254, 252, 240);
 }
 
+.card-1 #card-title span:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
 .card-1 #card-explan span {
     font-weight: 500;
     color: rgb(254, 252, 240);
+    text-shadow: 0px 0px 20px rgb(165, 165, 165);
+    text-transform: capitalize;
+}
+
+.card-1 #card-explan span:hover {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 
 .card-2 #card-title span {
-    color: rgb(255, 210, 157);
+    color: rgb(246, 219, 200);
 }
 
 .card-2 #card-explan span {
     font-weight: 500;
-    color: rgb(255, 210, 157);
+    color: rgb(246, 219, 200);
+    text-transform: capitalize;
 }
 
 .card-3 #card-title span {
-    color: rgb(255, 222, 233);
+    color: rgb(255, 239, 245);
 }
 
 .card-3 #card-explan span {
     font-weight: 500;
-    color: rgb(253, 217, 229);
+    color: rgb(255, 239, 245);
+    text-transform: capitalize;
 }
 
 #card-explan {
@@ -157,11 +172,10 @@ body {
 #card-title {
     font-size: 20px;
     font-weight: 700;
-
+    text-transform: capitalize;
 }
 
 #content-title-description {
     position: relative;
-    text-transform: capitalize;
     margin: 25px;
 }
