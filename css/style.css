@@ -66,122 +66,7 @@ body {
     cursor: pointer;
 }
 
-/* #main-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-    margin: 125px 125px 0px 150px; 
-} */
-
-/* #card-content {
-    border: transparent;
-    border-radius: 15px;
-    width: 400px;
-    min-width: 350px;
-    height: 400px;
-    background-color: #fff;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    bottom: 0px;
-} */
-
-/* .card-1 {
-    background-image: url(/img/card-img/card-1.jpg);
-    box-shadow: 0px 10px 10px rgb(212, 189, 162);
-}
-
-.card-2 {
-    background-image: url(/img/card-img/card-2.jpg);
-    box-shadow: 0px 10px 10px rgb(211, 132, 89);
-}
-
-.card-3 {
-    background-image: url(/img/card-img/card-3.jpg);
-    box-shadow: 0px 10px 10px rgb(219, 129, 185);
-} */
-
-/* #text-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 129px;
-    height: 100%;
-}
-
-::selection {
-    color: white;
-    background-color: gray;
-}
-
-.card-1 #card-title span {
-    color: rgb(254, 252, 240);
-}
-
-.card-1 #card-title span:hover {
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
-
-.card-1 #card-explan span {
-    font-weight: 500;
-    color: rgb(254, 252, 240);
-    text-shadow: 0px 0px 20px rgb(165, 165, 165);
-    text-transform: capitalize;
-}
-
-.card-1 #card-explan span:hover {
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 20px rgb(255, 255, 255);
-}
-
-.card-2 #card-title span {
-    color: rgb(246, 219, 200);
-}
-
-.card-2 #card-explan span {
-    font-weight: 500;
-    color: rgb(246, 219, 200);
-    text-transform: capitalize;
-}
-
-.card-3 #card-title span {
-    color: rgb(255, 239, 245);
-}
-
-.card-3 #card-explan span {
-    font-weight: 500;
-    color: rgb(255, 239, 245);
-    text-transform: capitalize;
-}
-
-#card-explan {
-    bottom: 0px;
-    font-size: 16px;
-    margin: 25px;
-    position: relative;
-    font-weight: 500;
-}
-
-#card-description {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-#card-title {
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: capitalize;
-}
-
-#content-title-description {
-    position: relative;
-    margin: 25px;
-} */
-
-#content-bg-balls {
+#content-bg {
     opacity: 0.3;
     transform: rotate(0deg);
     z-index: -2;
@@ -195,14 +80,14 @@ body {
     filter: blur(150px);
 }
 
-#ball-1 {
+#bg-1 {
     width: 500px;
     height: 60%;
     background-color: rgb(195, 0, 255);
     border-radius: 0% 0% 0% 50%;
 }
 
-#ball-2 {
+#bg-2 {
     width: 500px;
     height: 40%;
     background-color: rgb(255, 0, 191);
@@ -233,8 +118,8 @@ body {
 }
 
 #card-content img {
-    width: 100%;
-    height: 50%;
+    width: auto;
+    height: auto;
     border-radius: 15px 15px 0px 0px;
     transform: scale(1.5);
 }
